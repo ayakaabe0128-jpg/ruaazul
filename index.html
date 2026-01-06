@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rua Azul</title>
+    <meta name="description" content="遥か遠くポルトガルのリスボンを思わせる静かで穏やかなカフェ">
+
+    <!--ファビコン-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <!--Googleフォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+　　<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+　　<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Serif+JP:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!--オリジナルCSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="background">
+    <header class="page-header">
+    <div class="hero-container">
+    <!-- 背景となる画像 -->
+    <img class="main-image" src="images/firstview.png" alt="リスボンの景色">
+    <!-- 画像の上に重ねたい要素たち -->
+    <div class="overlay-content">
+    <div class="header">
+    <h1 class="align-center">
+    <a href="index.html"><img class="logo" src="images/logo.png" alt="Rua Asul ホーム"></a>
+    </h1>
+    <div class="text-container">
+    <h2 class="animated-text sub-title">Have a sip, survive the work week</h2></div>
+    <!-- ナビゲーションメニュー -->
+    <nav class="main-nav font-english">
+     <div class="wrapper">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+     <ul class="nav-list">
+      <li class="has-submenu"><a href="#section1">Concept</a></li>
+      <li class="has-submenu">
+         <a href="menu.html">Menu</a>
+         <ul class="submenu">
+            <li><a href="menu.html#drink">Drink</a></li>
+            <li><a href="menu.html#food">Food</a></li>
+            <li><a href="menu.html#takeout">Take Out</a></li>
+         </ul>
+      </li>
+      <li class="has-submenu">
+        <a href="#section2">Contact</a>
+        <ul class="submenu">
+          <li><a href="#section3">Information</a></li>
+          <li><a href="#section4">Access</a></li>
+        </ul>
+      </li>
+     </ul>
+    </div>
+    </nav>
+    </div><!-- class="header" -->
+    </div><!-- class="overlay-content" -->
+    </div><!-- class="hero-container" -->
+
+</header>
+
+<main>
+<!--Concept-->
+    <section class="concept">
+       <!--Concept <h2 class="page-title font-english">toppage</h2> -->
+        <h3 id="section1" class="heading-large font-english">Concept</h3>
+        <h4 class="concept-subtitle">&lt;日常を忘れ、リスボンの風を感じるひととき&gt;</h4>
+        <div class="aboutus">
+        <img class="interior" src="images/interior.png" alt="店内画像">
+        <p>
+&nbsp;ここは、遥か遠くポルトガルのリスボンを思わせる、静かで穏やかなカフェ。扉を開ければ、異国の情緒がそっとあなたを包み込みます。<br>
+&nbsp;忙しい日々を過ごす人のために、<span class="highlight">香ばしいポルトガルの焼き菓子</span>と、<span class="highlight">深みのある一杯のコーヒー</span>をご用意いたしました。家族やご友人と語らう時間も、お一人で静かに本をめくる時間も、心ゆくまでお過ごしいただけます。<br>
+&nbsp;日常から少し離れ、ここでほっと一息つきませんか。心が解き放たれる、特別な時間をお届けいたします。 
+        </p>
+        </div>
+        <div class="menu-explanation">
+            <img src="images/sign.png" alt="RuaAzulの看板">
+            <div class="menu-texts">
+            <a class="explanation-sweets" href="menu.html#sweets"><p>What’s Pastel de Nata?</p><p class="explanation-subtexts">香ばしいポルトガルの焼き菓子</p></a>
+            <a class="explanation-coffee" href="menu.html#coffee"><p>What’s Portuguese coffee?</p><p class="explanation-subtexts">ポルトガルの深みのあるコーヒー</p></a>
+            </div>
+        </div>
+    </section>
+
+<!--Menu-->
+    <section class="menu">
+        <h3 class="heading-large font-english"><a href="menu.html">Menu</a></h3>
+        <div class="grid-container">
+        <div class="grid-item"><!-- グリッドのアイテム1 -->
+            <a href="menu.html#drink">
+            <h4 class="menu-title font-english">Drink</h4>
+            <img src="images/drink.png" alt="メイア・デ・レイテ"></a>
+        </div>
+        <div class="grid-item"><!-- グリッドのアイテム2 -->
+            <a href="menu.html#food">
+            <img  src="images/food.png" alt="パステル・デ・ナタ">
+            <h4 class="menu-title font-english">Food</h4></a>
+        </div>
+        <div class="grid-item"><!-- グリッドのアイテム3 -->
+            <a href="menu.html#takeout">
+            <h4 class="menu-title font-english">Take out</h4>
+            <img src="images/takeout.png" alt="テイクアウトコーヒー"></a>
+        </div>
+        </div>
+    </section>
+</main>
+</body>
+
+
+
+<footer class="page-footer">
+    <h3 id="section2" class="heading-large font-english">Contact</h3>
+    <h4  id="section3" class="heading-medium font-english">Information</h4>
+    <table class="info">
+        <tr>
+            <th>Open</th>
+            <td>平日8:00～19:00<br>休日9:00～20:00</td>
+        </tr>
+        <tr>
+            <th>Close</th>
+            <td>毎週木曜</td>
+        </tr>
+        <tr>
+            <th>Access</th>
+            <td>〒107-0062 東京都港区南青山4丁目24-X</td>
+        </tr>
+        <tr>
+            <th>Tel</th>
+            <td>03-1234-XXXX</td>
+        </tr>
+    </table>
+    <h4 id="section4" class="heading-medium font-english">Access</h4>
+    <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1EIAc50-ACjq-_qGTlSILIwsiy4eMdCE&ehbc=2E312F&noprof=1" width="720" height="450"></iframe>
+    </div>
+    <p class="map">〒107-0062 東京都港区南青山4丁目24-X <br>
+    表参道駅A5出口より徒歩7分</p>
+
+    <div class="copyright">
+        <small class="copyright-text">&copy; 2025 RuaAzul Company.</small>
+    </div>
+</footer>
+</html>

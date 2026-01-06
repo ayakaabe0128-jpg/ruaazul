@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rua Azul - MENU</title>
+    <meta name="description" content="遥か遠くポルトガルのリスボンを思わせる静かで穏やかなカフェ">
+
+    <!--ファビコン-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <!--Googleフォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+　　<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+　　<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Serif+JP:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!--オリジナルCSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="background">
+    <header class="page-header-menu">
+    <div class="hero-container">
+    <!-- 背景となる動画 -->
+    <video class="menu-image" autoplay loop muted playsinline src="images/coffeefull.mp4">
+        <source src="images/coffeefull.mp4" type="video/mp4">
+    <!-- ブラウザがvideoタグをサポートしていない場合に表示されるテキスト -->
+       お使いのブラウザは動画をサポートしていません。
+       </video>
+    <!-- 画像の上に重ねたい要素たち -->
+    <div class="overlay-content">
+    <h1 class="align-center">
+    <a href="index.html"><img class="logo" src="images/logo.png" alt="Rua Asul ホーム"></a>
+    </h1>
+    <div class="text-container">
+    <h2 class="animated-text menu-sub-title">Have a sip, survive the work week</h2>
+    </div>
+    <!-- ナビゲーションメニュー -->
+    <nav class="main-nav font-english">
+     <div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+     <ul class="nav-list">
+      <li><a href="index.html#section1">Concept</a></li>
+      <li class="has-submenu">
+         <a href="menu.html">Menu</a>
+         <ul class="submenu">
+            <li><a href="#drink">Drink</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#takeout">Take Out</a></li>
+         </ul>
+      </li>
+      <li class="has-submenu">
+        <a href="index.html#section2">Contact</a>
+        <ul class="submenu">
+          <li><a href="index.html#section3">Information</a></li>
+          <li><a href="index.html#section4">Access</a></li>
+        </ul>
+      </li>
+     </ul>
+    </div>
+    </nav>
+    </div><!-- class="overlay-content" -->
+    </div><!-- class="hero-container" -->
+
+</header>
+<main class="wrapper">
+<!--Menu-->
+    <section class="menu-page">
+        <h3 class="heading-large font-english"><a href="menu.html">Menu</a></h3>
+        <div class="grid-container">
+        <div class="grid-item"><!-- グリッドのアイテム1 -->
+            <a href="#drink">
+            <h4 class="menu-title font-english">Drink</h4>
+            <img src="images/drink.png" alt="メイア・デ・レイテ"></a>
+        </div>
+        <div class="grid-item"><!-- グリッドのアイテム2 -->
+            <a href="#food">
+            <img  src="images/food.png" alt="パステル・デ・ナタ">
+            <h4 class="menu-title font-english">Food</h4></a>
+        </div>
+        <div class="grid-item"><!-- グリッドのアイテム3 -->
+            <a href="#takeout">
+            <h4 class="menu-title font-english">Take out</h4>
+            <img src="images/takeout.png" alt="テイクアウトコーヒー"></a>
+        </div>
+        </div>
+    </section>
+
+<!--Menu一覧-->
+    <section class="menu-category">
+        <h4 id="drink" class="heading-medium font-english">Drink</h4>
+        <!-- Coffee サブセクション -->
+            <div class="menu-section">
+                <h5 class="heading-small font-english">Coffee</h5>
+                <ul class="menu-list grid-layout">
+                    <li><span class="item-menu item-bica"></span>
+                        <div><span class="menu-item-text">Bica</span>
+                        <p>ビカ</p>
+                        <p>エスプレッソ</p></div></li>
+                    <li><span class="item-menu item-abatanado"></span>
+                        <div><span class="menu-item-text">Abatanado</span>
+                        <p>アバタナード</p>
+                        <p>エスプレッソ1：お湯3<br>アメリカンコーヒーのような味わい</p></div></li>
+                    <li><span class="item-menu item-pingard"></span>
+                        <div><span class="menu-item-text">Café Pingård</span>
+                        <p>カフェ・ピンガード</p>
+                        <p>エスプレッソにミルクをほんの少し</p></div></li>
+                    <li><span class="item-menu item-galao"></span>
+                        <div><span class="menu-item-text">Galão</span>
+                        <p>ガラオン</p>
+                        <p>エスプレッソ1：ミルク3</p></div></li>
+                    <li><span class="item-menu item-leite"></span>
+                        <div><span class="menu-item-text">Meia de Leite</span>
+                        <p>メイア・デ・レイテ</p>
+                        <p>エスプレッソ1：ミルク1</p></div></li>
+                </ul>
+            </div>
+        <!-- Juice サブセクション -->
+            <div class="menu-section">
+                <h5 class="heading-small font-english">Juice</h5>
+                <ul class="menu-list grid-layout">
+                    <li><span class="item-menu item-apple"></span>
+                        <div><span class="menu-item-text">Apple juice</span>
+                        <p>アップルジュース</p></div></li>
+                    <li><span class="item-menu item-orange"></span>
+                        <div><span class="menu-item-text">Orange juice</span>
+                        <p>絞たてオレンジジュース</p></div></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- FOOD セクション -->
+        <section class="menu-category">
+        <h4 id="food" class="heading-medium font-english">Food</h4>
+            <!-- Sweets サブセクション -->
+            <div class="menu-section">
+                <h5 class="heading-small font-english">Sweets</h5>
+                <ul class="menu-list grid-layout">
+                    <li><span class="item-menu item-nata"></span>
+                        <div><span class="menu-item-text">Pastel de Nata</span>
+                        <p>パステル・デ・ナタ</p>
+                        <p>本場ポルトガルの焼き菓子</p></div></li>
+                    <li><span class="item-menu item-arroz"></span>
+                        <div><span class="menu-item-text">Bolo de Arroz</span>
+                        <p>ボロ・デ・アロス</p>
+                        <p>米粉を使って作られたマフィンのようなケーキ</p></div></li>
+                </ul>
+            </div>
+            <!-- Sandwich サブセクション -->
+            <div class="menu-section">
+                <h5 class="heading-small font-english">Sandwich</h5>
+                <ul class="menu-list grid-layout">
+                    <li><span class="item-menu item-tostamista"></span>
+                        <div><span class="menu-item-text">Tosta Mista</span>
+                        <p>トスタ・ミスタ</p>
+                        <p>ハムとチーズをはさんでプレスしたホットサンドイッチ</p></div></li>
+                    <li><span class="item-menu item-paodedeusmista"></span>
+                        <div><span class="menu-item-text">Pão de Deus Mista</span>
+                        <p>パォン・デ・デウス・ミスタ</p>
+                        <p>ココナッツフレークを乗せたふわふわのパンにハムとチーズを挟んだサンドイッチ</p></div></li>
+                    <li><span class="item-menu item-bifana"></span>
+                        <div><span class="menu-item-text">Bifana</span>
+                        <p>ビファーナ</p>
+                        <p>香辛料でマリネした豚肉の薄切りをパンに挟んだサンドイッチ</p></div></li>
+                    <li><span class="item-menu item-francesinha"></span>
+                        <div><span class="menu-item-text">Francesinha</span>
+                        <p>フランセジーニャ</p>
+                        <p>お肉とチーズをたっぷり使い濃厚なトマトビールソースをかけたサンドイッチ</p></div></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Takeout セクション -->
+        <section class="menu-category">
+        <h4 id="takeout" class="heading-medium font-english">Take out</h4>
+        <p class="takeout">どの商品もテイクアウトいただけます。</p>
+    </section>
+
+        <!-- Explanation -->
+    <section class="explanation wrapper">
+     <h3 id="sweets" class="heading-medium font-english">What’s Pastel de Nata?</h3>
+     <div class="explanation-layout">
+     <img src="images/what'snata.png" alt="焼きたてのパステル・デ・ナタ">
+      <div>
+       <h4>パステル・デ・ナタとは？</h4>
+       <p>「エッグタルト」と本場ポルトガルの「パステル・デ・ナタ」は、見た目は似ていますが、生地やクリーム、風味に違いがあります。<br>薄い層が何層にも重なった、サクサクで香ばしいパイ生地に濃厚でとろりとしたカスタードクリームが特徴です。<br><span class="highlight">毎日丁寧に焼き上げる本場さながらのポルトガルの焼き菓子。お好みでシナモンパウダーをかけて温かいうちにお召し上がりください。</span></p>
+      </div>
+     </div>
+     <h3 id="coffee" class="heading-medium font-english">What’s Portuguese coffee?</h3>
+     <div class="explanation-layout">
+     <img src="images/risboncafe.png" alt="リスボンのカフェ">
+      <div>
+       <h4>ポルトガルのコーヒーとは？</h4>
+       <p>ポルトガルのコーヒー文化は非常に豊かで、日常に深く根付いています。独自の用語とスタイルが発展しているほどです。朝食後や昼休みなどにサッと立ち寄り、短時間でコーヒーを楽しみます。<span class="highlight">当店では、ポルトガルのコーヒー文化を再現した、独自のメニューを提供しております。特別な一杯をぜひお楽しみください。</span></p>
+      </div>
+     </div>
+       </section>
+</main>
+</body>
+
+
+<footer class="page-footer">
+    <h3 id="section2" class="heading-large font-english">Contact</h3>
+    <h4  id="section3" class="heading-medium font-english">Information</h4>
+    <table class="info">
+        <tr>
+            <th>Open</th>
+            <td>平日8:00～19:00<br>休日9:00～20:00</td>
+        </tr>
+        <tr>
+            <th>Close</th>
+            <td>毎週木曜</td>
+        </tr>
+        <tr>
+            <th>Access</th>
+            <td>〒107-0062 東京都港区南青山4丁目24-X</td>
+        </tr>
+        <tr>
+            <th>Tel</th>
+            <td>03-1234-XXXX</td>
+        </tr>
+    </table>
+    <h4 id="section4" class="heading-medium font-english">Access</h4>
+    <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1EIAc50-ACjq-_qGTlSILIwsiy4eMdCE&ehbc=2E312F&noprof=1" width="680" height="320"></iframe>
+    </div>
+    <p class="map">〒107-0062 東京都港区南青山4丁目24-X <br>
+    表参道駅A5出口より徒歩7分</p>
+
+    <div class="copyright">
+        <small class="copyright-text">&copy; 2025 RuaAzul Company.</small>
+    </div>
+</footer>
+</html>
